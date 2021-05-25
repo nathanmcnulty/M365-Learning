@@ -31,7 +31,7 @@ Connect-AzureAD
 Get-Command Remove-AzureADUser -ShowCommandInfo
 
 # Remove user, no force needed
-Remove-AzureADUser -ObjectId tuser2@getsecurer.onmicrosoft.com
+Remove-AzureADUser -ObjectId tuser2@domain.onmicrosoft.com
 ````
 
 ## MSOnline Module
@@ -46,5 +46,5 @@ Connect-MsolService
 Get-Command Remove-MsolUser -ShowCommandInfo
 
 # Remove user with -Force to skip prompt
-Remove-MsolUser 
+Remove-MsolUser -UserPrincipalName tuser3@domain.onmicrosoft.com -Force
 ````
