@@ -5,7 +5,7 @@ This is where I will put the information for varoius Powershell modules I cover 
 
 ## Azure Az Powershell Module
 
-I find these modules a little more difficult to work with in relation to Azure AD, but if you use a lot of other Azure resources, such as IaaS/PaaS offerings, this might be the best choice for you. It can be particularly helpful when dealing with subscriptions, IAM, etc.
+These have improved since AzureRM when it comes to Azure AD, and if I had to choose a module to invest time in, I think this would be the best one to choose. You get cross playform support with Powershell 7, and it is able to do both Azure AD as well as other Azure resources, such as IaaS/PaaS offerings - something the other modules cannot do.
 <p>&nbsp;</p>
 
 ## Az Installation
