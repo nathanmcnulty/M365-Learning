@@ -23,7 +23,7 @@ Install-Module -Name Az -Scope CurrentUser -Repository PSGallery -Force
 
 ## AzureAD Preview Powershell Module
 
-I tend to prefer the Preview module which has support for newer features sooner. These are a little less flexible than the Az modules unless you know the exact query you need, and often it requires the use of the -All switch for large tenants. You may find yourself having to query more than you want and filtering with a " | Where-Object " more often than you'd like. I'd play with both Az and AzurAD modules and see which fits your scenario best.
+I tend to prefer the Preview module which is often faster and has support for newer features sooner. For working with Azure AD, this supports modifying more attributes than other modules, but it often requires the use of the -All switch for large tenants to return enough results. You may find yourself having to query more than you want and filtering with a " | Where-Object " more often than you'd like. I'd play with both Az and AzurAD modules and see which fits your scenario best.
 <p>&nbsp;</p>
 
 ## AzureAD Preview Installation
