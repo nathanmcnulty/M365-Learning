@@ -5,7 +5,7 @@ This is where I will put the information for varoius Powershell modules I cover 
 
 ## Azure Az Powershell Module
 
-I find these modules a little more difficult to work with in relation to Azure AD, but if you use a lot of other Azure resources, such as IaaS/PaaS offerings, this might be the best choice for you. It can be particularly helpful when dealing with subscriptions, IAM, etc.
+These have improved since AzureRM when it comes to Azure AD, and if I had to choose a module to invest time in, I think this would be the best one to choose. You get cross playform support with Powershell 7, and it is able to do both Azure AD as well as other Azure resources, such as IaaS/PaaS offerings - something the other modules cannot do. This is also included in Azure Cloud Shell and has less dependencies when using Azure Automation or Azure Functions.
 <p>&nbsp;</p>
 
 ## Az Installation
@@ -23,7 +23,7 @@ Install-Module -Name Az -Scope CurrentUser -Repository PSGallery -Force
 
 ## AzureAD Preview Powershell Module
 
-I find these to be the easiest to work with, and I tend to prefer the Preview module which  has support for newer features sooner. If you will be working primarily in Azure AD and not in other Azure components, this might be the best choice for you.
+I tend to prefer the Preview module which has support for newer features sooner. These are a little less flexible than the Az modules and often requires the use of the -All switch. You may find yourself having to query far more than you want and filtering with a " | Where-Object " more often than you'd like. I'd play with both Az and AzurAD modules and see which fits your scenario best.
 <p>&nbsp;</p>
 
 ## AzureAD Preview Installation
