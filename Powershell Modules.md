@@ -5,7 +5,7 @@ This is where I will put the information for varoius Powershell modules I cover 
 
 ## Azure Az Powershell Module
 
-These have improved since AzureRM when it comes to Azure AD, and if I had to choose a module to invest time in, I think this would be the best one to choose. You get cross playform support with Powershell 7, and it is able to do both Azure AD as well as other Azure resources, such as IaaS/PaaS offerings - something the other modules cannot do. This is also included in Azure Cloud Shell and has less dependencies when using Azure Automation or Azure Functions.
+These have improved since AzureRM when it comes to Azure AD, and if I had to choose a module to invest time in, I think this would be the best one to choose. You get cross platform support with Powershell 7, and it is able to do both Azure AD as well as other Azure resources, such as IaaS/PaaS offerings - something the other modules cannot do. This is also included in Azure Cloud Shell and has less dependencies when using Azure Automation or Azure Functions.
 <p>&nbsp;</p>
 
 ## Az Installation
@@ -23,7 +23,7 @@ Install-Module -Name Az -Scope CurrentUser -Repository PSGallery -Force
 
 ## AzureAD Preview Powershell Module
 
-I tend to prefer the Preview module which has support for newer features sooner. These are a little less flexible than the Az modules and often requires the use of the -All switch. You may find yourself having to query far more than you want and filtering with a " | Where-Object " more often than you'd like. I'd play with both Az and AzurAD modules and see which fits your scenario best.
+I tend to prefer the Preview module which has support for newer features sooner. These are a little less flexible than the Az modules unless you know the exact query you need, and often it requires the use of the -All switch for large tenants. You may find yourself having to query more than you want and filtering with a " | Where-Object " more often than you'd like. I'd play with both Az and AzurAD modules and see which fits your scenario best.
 <p>&nbsp;</p>
 
 ## AzureAD Preview Installation
