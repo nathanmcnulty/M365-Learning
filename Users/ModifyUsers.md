@@ -35,7 +35,7 @@ Connect-AzureAD
 Get-Command Set-AzureADUser -ShowCommandInfo
 
 # Example of just a few attributes editable by the Azure AD module
-Set-AzureADUser -ObjectId tuser2@getsecurer.onmicrosoft.com -City Portland -CompanyName "Get Securer" -Department "Security" -DisplayName "Test User Two" -GivenName "Test" -Surname "User Two" -JobTitle "Testing"
+Set-AzureADUser -ObjectId tuser2@domain.onmicrosoft.com -City Portland -CompanyName "Get Securer" -Department "Security" -DisplayName "Test User Two" -GivenName "Test" -Surname "User Two" -JobTitle "Testing"
 ````
 
 ## MSOnline Module
@@ -52,5 +52,5 @@ Connect-MsolService
 Get-Command Set-MsolUser -ShowCommandInfo
 
 # Example of just a few attributes editable by the MSOnline module
-Set-MsolUser -UserPrincipalName tuser3@getsecurer.com -City "Portland" -Department "Security" -DisplayName "Test User Three" -FirstName "Test" -LastName "User Three" -UserType Viral
+Set-MsolUser -UserPrincipalName tuser3@domain.com -City "Portland" -Department "Security" -DisplayName "Test User Three" -FirstName "Test" -LastName "User Three" -UserType Viral
 ````
