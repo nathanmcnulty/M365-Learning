@@ -17,7 +17,7 @@ Connect-AzAccount
 Get-Command Get-AzADUser -ShowCommandInfo
 
 # UPN for looking up users, -StartsWith for searches
-Get-AzADUser -UserPrincipalName tuser1@domain.onmicrosoft.com
+Get-AzADUser -UserPrincipalName "tuser1@domain.onmicrosoft.com"
 ````
 
 ## Azure AD Module
