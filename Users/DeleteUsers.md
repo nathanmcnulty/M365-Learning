@@ -15,7 +15,7 @@ Connect-AzAccount
 Get-Command Remove-AzADUser -ShowCommandInfo
 
 # Remove user with -Force to skip prompt
-Remove-AzADUser Remove-AzADUser -UserPrincipalName "tuser1@domain.onmicrosoft.com" -Force
+Remove-AzADUser -UserPrincipalName tuser1@domain.onmicrosoft.com -Force
 ````
 
 ## Azure AD Module
