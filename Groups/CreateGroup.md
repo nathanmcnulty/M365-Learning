@@ -21,7 +21,7 @@ New-AzADGroup -DisplayName "Test Group 1" -MailNickname "TestGroup1"
 ## Azure AD Module
 
 New-AzureADGroup Docs:  
-<https://docs.microsoft.com/en-us/powershell/module/azuread/new-azureadgroup?view=azureadps-2.0>
+<https://docs.microsoft.com/en-us/powershell/module/azuread/new-azureadgroup?view=azureadps-2.0-preview>
 
 ````Powershell
 # Need to authenticate to our tenant with the correct account

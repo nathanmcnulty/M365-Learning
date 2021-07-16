@@ -21,7 +21,7 @@ Remove-AzADUser -UserPrincipalName "tuser1@domain.onmicrosoft.com" -Force
 ## Azure AD Module
 
 Remove-AzureADUser Docs:  
-<https://docs.microsoft.com/en-us/powershell/module/azuread/remove-azureaduser?view=azureadps-2.0>
+<https://docs.microsoft.com/en-us/powershell/module/azuread/remove-azureaduser?view=azureadps-2.0-preview>
 
 ````Powershell
 # Need to authenticate to our tenant with the correct account

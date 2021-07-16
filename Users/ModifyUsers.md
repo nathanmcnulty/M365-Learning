@@ -25,7 +25,7 @@ Update-AzADUser -UserPrincipalName "tuser1@domain.onmicrosoft.com" -DisplayName 
 You'll notice the Azure AD Module has a lot more options when it comes to editing user (and group) attributes.
 
 Set-AzureADUser Docs:  
-<https://docs.microsoft.com/en-us/powershell/module/azuread/set-azureaduser?view=azureadps-2.0>
+<https://docs.microsoft.com/en-us/powershell/module/azuread/set-azureaduser?view=azureadps-2.0-preview>
 
 ````Powershell
 # Need to authenticate to our tenant with the correct account

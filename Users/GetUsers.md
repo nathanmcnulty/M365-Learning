@@ -25,7 +25,7 @@ Get-AzADUser -UserPrincipalName "tuser1@domain.onmicrosoft.com"
 With this module, you will mostly use filters with the SearchString parameter.  
 
 Get-AzureADUser Docs:  
-<https://docs.microsoft.com/en-us/powershell/module/azuread/get-azureaduser?view=azureadps-2.0>
+<https://docs.microsoft.com/en-us/powershell/module/azuread/get-azureaduser?view=azureadps-2.0-preview>
 
 ````Powershell
 # Need to authenticate to our tenant with the correct account

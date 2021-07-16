@@ -21,7 +21,7 @@ New-AzADUser -DisplayName "Test User 1" -UserPrincipalName "tuser1@domain.onmicr
 ## Azure AD Module
 
 New-AzureADUser Docs:  
-<https://docs.microsoft.com/en-us/powershell/module/azuread/new-azureaduser?view=azureadps-2.0>
+<https://docs.microsoft.com/en-us/powershell/module/azuread/new-azureaduser?view=azureadps-2.0-preview>
 
 ````Powershell
 # Need to authenticate to our tenant with the correct account
