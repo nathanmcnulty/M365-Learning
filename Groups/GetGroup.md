@@ -4,7 +4,7 @@ In addition to viewing groups in the Azure Portal, we can also get group details
 
 ## Az Powershell Module
 
-This gives you the option to get groups by GroupPrincipalName, DisplayName, Mail, and a quasi-filter of StartsWith
+This gives you the option to get groups by ObjectId, DisplayNameStartsWith, or DisplayName
 
 Get-AzADGroup Docs:  
 <https://docs.microsoft.com/en-us/powershell/module/az.resources/get-azadgroup?view=azps-6.2.1>
@@ -22,7 +22,7 @@ Get-AzADGroup -DisplayName "Test Group 1" | fl *
 
 ## Azure AD Module
 
-With this module, you will mostly use filters with the SearchString parameter.  
+With this module, you will mostly use filters with the SearchString parameter, but if you need all groups, you'll have to specify -All $true
 
 Get-AzureADGroup Docs:  
 <https://docs.microsoft.com/en-us/powershell/module/azuread/get-azureadgroup?view=azureadps-2.0-preview>
