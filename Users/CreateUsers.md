@@ -5,7 +5,7 @@ In addition to creating users in the Azure Portal, we can also create users thro
 ## Az Powershell Module
 
 New-AzADUser Docs:  
-<https://docs.microsoft.com/en-us/powershell/module/az.resources/new-azaduser?view=azps-5.9.0>
+<https://docs.microsoft.com/en-us/powershell/module/az.resources/new-azaduser?view=azps-6.2.1>
 
 ````Powershell
 # Need to authenticate to our tenant with the correct account

@@ -7,7 +7,7 @@ In addition to modifying users in the Azure Portal, we can also modify users thr
 Not much useful here. You can change DisplayName, enable/disable the account, and reset the password.
 
 Update-AzADUser Docs:  
-<https://docs.microsoft.com/en-us/powershell/module/az.resources/update-azaduser?view=azps-5.9.0>
+<https://docs.microsoft.com/en-us/powershell/module/az.resources/update-azaduser?view=azps-6.2.1>
 
 ````Powershell
 # Need to authenticate to our tenant with the correct account

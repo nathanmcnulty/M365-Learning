@@ -5,7 +5,7 @@ In addition to deleting users in the Azure Portal, we can also delete users thro
 ## Az Powershell Module
 
 Remove-AzADUser Docs:  
-<https://docs.microsoft.com/en-us/powershell/module/az.resources/remove-azaduser?view=azps-5.9.0>
+<https://docs.microsoft.com/en-us/powershell/module/az.resources/remove-azaduser?view=azps-6.2.1>
 
 ````Powershell
 # Need to authenticate to our tenant with the correct account

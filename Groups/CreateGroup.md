@@ -5,7 +5,7 @@ In addition to creating groups in the Azure Portal, we can also create groups th
 ## Az Powershell Module
 
 New-AzADGroup Docs:  
-<https://docs.microsoft.com/en-us/powershell/module/az.resources/new-azadgroup?view=azps-5.9.0>
+<https://docs.microsoft.com/en-us/powershell/module/az.resources/new-azadgroup?view=azps-6.2.1>
 
 ````Powershell
 # Need to authenticate to our tenant with the correct account

@@ -7,7 +7,7 @@ In addition to viewing users in the Azure Portal, we can also get user details t
 This gives you the option to get users by UserPrincipalName, DisplayName, Mail, and a quasi-filter of StartsWith
 
 Get-AzADUser Docs:  
-<https://docs.microsoft.com/en-us/powershell/module/az.resources/get-azaduser?view=azps-5.9.0>
+<https://docs.microsoft.com/en-us/powershell/module/az.resources/get-azaduser?view=azps-6.2.1>
 
 ````Powershell
 # Need to authenticate to our tenant with the correct account
