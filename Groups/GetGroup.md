@@ -22,7 +22,7 @@ Get-AzADGroup -DisplayName "Test Group 1" | fl *
 
 ## Azure AD Module
 
-With this module, you will mostly use filters with the SearchString parameter, but if you need all groups, you'll have to specify -All $true
+With this module, you will use the SearchString parameter, but if you need all groups, you'll have to specify -All $true. Get-AzureADMSGroup is newer and supports dynamic group membership information.
 
 Get-AzureADGroup Docs:  
 <https://docs.microsoft.com/en-us/powershell/module/azuread/get-azureadgroup?view=azureadps-2.0-preview>
@@ -34,8 +34,22 @@ Connect-AzureAD
 # Shows the syntax along with additional information about Get-AzureADGroup
 Get-Command Get-AzureADGroup -ShowCommandInfo
 
-# Example using SearchString for "tGroup2"
+# Example using SearchString for "Test Group 2"
 Get-AzureADGroup -SearchString "Test Group 2" | fl *
+````
+
+Get-AzureADMSGroup Docs:  
+<https://docs.microsoft.com/en-us/powershell/module/azuread/get-azureadgroup?view=azureadps-2.0-preview>
+
+````Powershell
+# Need to authenticate to our tenant with the correct account
+Connect-AzureAD
+
+# Shows the syntax along with additional information about Get-AzureADGroup
+Get-Command Get-AzureADMSGroup -ShowCommandInfo
+
+# Example using SearchString for "Security Analysts - UK"
+Get-AzureADMSGroup -SearchString "Security Analysts - UK" | fl *
 ````
 
 ## MSOnline Module
